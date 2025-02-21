@@ -14,17 +14,18 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='min-h-screen'>
-      <FirstPage/>
-      <SmartCheckIn/>
-      <QueueManagement/>
-      <Benefits/>
-      <CustomiseToYourNeeds/>
-      <Plan/>
-      <FreeTrial/>
-      <ClientsReviews/>
-      <Sponsors/>
-      <Footer/>
+    // <div className='min-h-screen'>
+    <div>
+      <FirstPage />
+      <SmartCheckIn />
+      <QueueManagement />
+      <Benefits />
+      <CustomiseToYourNeeds />
+      <Plan />
+      {/* <FreeTrial /> */}
+      {/* <ClientsReviews /> */}
+      {/* <Sponsors /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
