@@ -6,7 +6,7 @@ const SmartCheckIn = () => {
           <div className='flex items-center h-4/5 gap-16  max-[940px]:flex max-[940px]:flex-col'>
                 <div className='w-1/2 max-lg:w-full ' >
                     <h1 className=' text-6xl font-bold mb-8 font-inter text-[#212529] max-lg:text-4xl ,max-sm:text-3xl'>Smart Check-In Kiosk</h1>
-                    <img src="checkin.svg" alt="checkin" className='absolute top-[124px] -z-10 max-lg:-top-3 max-lg:left-[350px] max-lg:size-40 max-sm:left-[300px]'/>
+                    <img src="/public/checkin.svg" alt="checkin" className='absolute top-[124px] -z-10 max-lg:-top-3 max-lg:left-[350px] max-lg:size-40 max-sm:left-[300px]'/>
                     <p className='font-normal text-base font-inter text-[#212529] max-sm:text-sm'>How It Works:</p>
                     <ul className='list-disc list-inside space-y-1 mb-16 '>
                         <li className='font-normal text-base font-inter text-[#212529] max-sm:text-sm'>Customers enter the shop and check in using a <span className='font-bold text-lg max-sm:text-sm text-[#212529]'>self-service kiosk</span>  (tablet or touchscreen computer) or via their <span className='font-bold text-lg max-sm:text-sm'>own mobile device</span>  through a QR code or link</li>
