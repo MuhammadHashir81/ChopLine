@@ -3,10 +3,10 @@ import { ArrowRight } from 'lucide-react'
 const CustomiseToYourNeeds = () => {
   return (
     <div>
-      <div className='flex items-center  px-32 mt-[120px] justify-between relative max-lg:gap-14 max-[940px]:flex max-[940px]:flex-col max-sm:px-10' >
-        <img src="customise.svg" alt="customise" className='absolute right-[235px] top-[144px] -z-10 max-lg:size-60 max-lg:-top-[84px] max-lg:right-28'   />
+      <div className='flex items-center  px-32 mt-[120px] justify-between relative max-lg:gap-14 max-[940px]:flex max-[940px]:flex-col-reverse max-sm:px-10' >
+        <img src="customise.svg" alt="customise" className='absolute right-[235px] top-[144px] -z-10 max-lg:size-60 max-lg:-top-[84px] max-lg:right-28 '   />
         <div>
-          <img src="checkin.jpg" width={500} />
+          <img src="checkin.jpg" width={500} className='max-lg:w-[900px]'/>
         </div>
         <div className='w-1/2  max-lg:w-full'>
           <h1 className='font-bold text-6xl mb-6 font-inter text-[#212529] max-lg:text-3xl max-lg:mb-4 max-sm:text-3xl '>Customise it to your needs</h1>

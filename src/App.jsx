@@ -22,10 +22,10 @@ function App() {
       <Benefits />
       <CustomiseToYourNeeds />
       <Plan />
-      {/* <FreeTrial /> */}
-      {/* <ClientsReviews /> */}
-      {/* <Sponsors /> */}
-      {/* <Footer /> */}
+      <FreeTrial />
+      <ClientsReviews />
+      <Sponsors />
+      <Footer />
     </div>
   )
 }

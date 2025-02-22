@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { CircleCheckBig } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -48,8 +47,8 @@ const Plan = () => {
                     </div>
                   ))}
                 </div>
-                <button className={`flex items-center gap-2 px-8 py-4 mt-10 rounded-md ${index === 1 ? 'bg-[#FFE492] text-black' : 'border-[1px] border-[#FFE492] text-[#212529]'}`}>
-                  <span className='font-medium text-base font-inter'>Get started</span>
+                <button className={`flex items-center gap-2 px-8 py-4 mt-10 rounded-md  ${index === 1 ? 'bg-[#FFE492] text-black' : 'border-[1px] border-[#FFE492] text-[#212529]'}`}>
+                  <span className='font-medium text-base font-inter '>Get started</span>
                 </button>
               </div>
             </SwiperSlide>
@@ -64,21 +63,21 @@ const Plan = () => {
             key={index}
             className={`py-10 px-11 rounded-md ${index === 1 ? 'bg-[#018837] text-white scale-110 shadow-md' : 'border-[1px] border-[#FFE492]'}`}
           >
-            <h5 className='mb-6 font-semibold text-xl text-[#212529] font-inter'>{plan}</h5>
-            <h3 className='font-bold text-3xl mb-4 font-inter text-[#FFE492]'>
+            <h5 className='mb-6 font-semibold text-xl text-[#212529] font-inter max-lg:font-medium max-lg:text-lg'>{plan}</h5>
+            <h3 className='font-bold text-3xl mb-4 font-inter text-[#FFE492] max-lg:text-2xl '>
               {index === 0 ? '$0' : index === 1 ? '$29.99' : '$49.99'}
             </h3>
-            <p className='mb-4 text-base font-normal font-inter'>Keep home and family on track</p>
+            <p className='mb-4 text-base font-normal font-inter max-lg:text-sm'>Keep home and family on track</p>
             <div className='flex flex-col gap-4'>
               {['Sync unlimited devices', '10 GB monthly uploads', '200 MB max note size'].map((text, i) => (
                 <div className='flex' key={i}>
                   <CircleCheckBig className='mr-3 size-5 text-[#FFE492]' />
-                  <p className='text-base font-normal font-inter'>{text}</p>
+                  <p className='text-base font-normal font-inter max-lg:text-sm'>{text}</p>
                 </div>
               ))}
             </div>
-            <button className={`flex items-center gap-2 px-10 py-4 mt-10 rounded-md ${index === 1 ? 'bg-[#FFE492] text-black' : 'border-[1px] border-[#FFE492] text-[#212529]'}`}>
-              <span className='font-medium text-base font-inter'>Get started</span>
+            <button className={`flex items-center gap-2 px-10 py-4 mt-10 rounded-md max-lg:px-2 max-lg:justify-center max-lg:w-[150px]  ${index === 1 ? 'bg-[#FFE492] text-black' : 'border-[1px] border-[#FFE492] text-[#212529]'}`}>
+              <span className='font-medium text-base font-inter max-lg:text-sm'>Get started</span>
             </button>
           </div>
         ))}

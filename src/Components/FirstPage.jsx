@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react'
 import { ArrowRight } from 'lucide-react'
 const FirstPage = () => {
     return (
-        <div className='h-screen  max-[940px]:h-fit '>
+        <div className='h-screen  max-[940px]:h-fit  '>
             <div className='flex justify-between items-center px-32 py-8 max-sm:px-10  '>
                 <div className='w-1/4 max-sm:w-full '>
                     <h3 className=' text-3xl font-medium'>Chop<span className='text text-[#018837]'>Line</span> </h3>
